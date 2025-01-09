@@ -1,0 +1,57 @@
+/* Variables */
+:root {
+    --font-primary: 'Inconsolata', monospace;
+    --font-secondary: 'Signika', sans-serif;
+  
+    --color-one: #0097e6; /*niebieski*/
+    --color-two: #33d9b2; /*zielony*/
+    --color-three: #ff5252; /*czerwony*/
+  
+    --text-one: #ffffff;
+    --text-two: #2c2c54;
+    --text-hover: #33d9b2;
+  
+    --transition: all 1s;
+  }
+  
+  /* Global */
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-primary);
+    color: var(--text-two);
+  }
+    
+ /* header */
+  
+  .splash {
+    background: var(--color-one);
+    color: var(--text-one);
+    min-width: 500px;
+    display: flex;
+    padding: 50px 0;
+  
+    .splash-inner {
+      margin: auto;
+      max-width: 70%;
+    }
+  
+    .page-title {
+      margin: 0;
+      font-size: 90px;
+      
+    }
+  
+    .page-subtitle {
+      font-weight: 400;
+      font-size: 30px;
+      font-style: italic;
+      font-family: var(--font-secondary);
+    }
+  }
