@@ -1,0 +1,1 @@
+npm exec html-validate index.html    //komenda do sprawdzenia pliku index.html//
