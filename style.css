@@ -11,7 +11,7 @@
     --text-two: #2c2c54;
     --text-hover: #33d9b2;
   
-    --transition: all 1s;
+
   }
   
   /* Global */
@@ -53,5 +53,29 @@
       font-size: 30px;
       font-style: italic;
       font-family: var(--font-secondary);
+    }
+  }
+
+  .lyrics {
+    background: lightblue;
+    display: flex;
+     
+    .lyrics-inner {
+      margin: auto;
+      max-width: 70%;
+    }
+  
+    .lyrics-text {
+    margin: 0;  
+    font-size: 20px;
+      font-family: var(--font-secondary);
+      ;
+    }
+
+    .lyrics-chorus {
+      margin: 0;
+      font-size: 22px;
+      font-family: var(--font-secondary);
+      font-style: italic;
     }
   }
