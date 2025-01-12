@@ -68,14 +68,20 @@
     .lyrics-text {
     margin: 0;  
     font-size: 20px;
-      font-family: var(--font-secondary);
+      font-family: monospace;
       ;
     }
 
     .lyrics-chorus {
       margin: 0;
       font-size: 22px;
-      font-family: var(--font-secondary);
+      font-family: Inconsolata;
       font-style: italic;
+    }
+    .lyrics-column
+    {
+      margin: 20px;
+      
+      
     }
   }
